@@ -1,0 +1,11 @@
+<% content_for :pages do %>Charts<% end %>
+<h3>Charts</h3>
+
+      <p>Choose from our active and archived NBA and NFL charts. MLB and NHL coming soon.</p>
+      <div class="row">
+        <div class="col-xs-6 col-md-6" style="background-color:lightblue"><%= link_to 'NBA Active', page_path('nba_active') %></div>
+        <div class="col-xs-6 col-md-6" style="background-color:lightgray"><%= link_to 'NBA Archive', page_path('nba_archive') %></div>
+        <br></br>
+        <div class="col-xs-6 col-md-6" style="background-color:lightblue"><%= link_to 'NFL Active', page_path('nfl_active') %></div>
+        <div class="col-xs-6 col-md-6" style="background-color:lightgray"><%= link_to 'NFL Archive', page_path('nfl_archive') %></div>        
+      </div>
