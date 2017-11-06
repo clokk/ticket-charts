@@ -52,10 +52,5 @@ test:
 
 production:
   adapter:  postgresql
-  host:     localhost
-  encoding: unicode
-  database: rails-devise_production
+  encoding: utf8
   pool:     5
-  username: postgres
-  password: bukuh52894
-  template: template0
